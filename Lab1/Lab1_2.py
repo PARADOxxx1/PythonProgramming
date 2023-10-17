@@ -1,6 +1,8 @@
 # TODO Найдите количество книг, которое можно разместить на дискете
 
-disk_memory_bites = 1.44 * (2 ** 20)
+disk_memory_kilobites = 1.44
+bites_in_kilobites = 2 ** 20
+disk_memory_bites = disk_memory_kilobites * bites_in_kilobites
 pages_book = 100
 str_page = 50
 symb_str = 25
